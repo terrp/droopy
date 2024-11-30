@@ -1,9 +1,13 @@
 
 body{
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 400;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    text-align: center;
+    color: white;
+    background: #202731;
 }
 
 img{
@@ -14,3 +18,29 @@ h1{
     border: 2px red solid;
 }
 
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 330px;
+    padding: 100px 20vw;
+}
+
+/* Color classes */
+
+.blue{
+    background: #143f7c;
+}
+
+.red{
+    background: #77130c;
+}
+
+.pink{
+    background: #ff0066;
+}
+
+.dark{
+    background: #0f0f10;
+}
