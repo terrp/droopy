@@ -6,6 +6,11 @@ body{
     flex-direction: column;
 }
 
+img{
+    width: 150px;
+    height: auto;
+}
 h1{
     border: 2px red solid;
 }
+
