@@ -14,7 +14,13 @@ img{
     width: 150px;
     height: auto;
 }
+
 h1{
+    border: 2px red solid;
+}
+
+/* temporary to see flex arrangements */
+div{
     border: 2px red solid;
 }
 
@@ -22,15 +28,24 @@ section{
     position: relative;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
     align-items: center;
+    justify-content: space-between;
     min-height: 330px;
-    padding: 100px 20vw;
+    padding: 50px 10vw;
+}
+
+/* Text and Content */
+
+.title{
+    font-size: 35px;
 }
 
 /* Spacer between sections */
 
 .spacer{
-    aspect-ratio: 900/300;
+    aspect-ratio: 1000/300;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
