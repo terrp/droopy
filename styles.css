@@ -27,6 +27,24 @@ section{
     padding: 100px 20vw;
 }
 
+/* Spacer between sections */
+
+.spacer{
+    aspect-ratio: 900/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer {
+    background-image: url('./bottom_layer.svg');
+}
+
+.layer2{
+    background-image: url('./mid_layer.svg');
+}
+
 /* Color classes */
 
 .blue{
@@ -38,9 +56,9 @@ section{
 }
 
 .pink{
-    background: #ff0066;
+    background: #C62368;
 }
 
 .dark{
-    background: #0f0f10;
+    background: #060630;
 }
