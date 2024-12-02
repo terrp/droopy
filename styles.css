@@ -11,12 +11,8 @@ body{
 }
 
 img{
-    width: 150px;
-    height: auto;
-}
-
-h1{
-    border: 2px red solid;
+    width: auto;
+    height: 150px;
 }
 
 /* temporary to see flex arrangements */
@@ -28,11 +24,10 @@ section{
     position: relative;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: space-between;
-    min-height: 330px;
+    min-height: 400px;
     padding: 50px 10vw;
 }
 
@@ -40,6 +35,14 @@ section{
 
 .titles{
     font-size: 45px;
+    border: 2px red solid;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 25px;
 }
 
 /* Spacer between sections */
